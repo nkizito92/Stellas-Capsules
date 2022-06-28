@@ -1,5 +1,8 @@
 body {
   background-color: rgb(76, 99, 0);
+  background-image: url("../public/greenPlant.png");
+  background-repeat: no-repeat;
+  background-position: 50% 1%;
 }
 .mainCenter {
   display: flex;
@@ -10,7 +13,7 @@ body {
 
 .navBar{
   width: 100%;
-  background-color:rgb(148, 212, 0 );
+  background-color:rgb(44, 56, 14);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -18,6 +21,6 @@ body {
 
 .navBar a {
   padding: 10px;
-  color:black;
+  color:wheat;
   text-decoration: none;
 }
